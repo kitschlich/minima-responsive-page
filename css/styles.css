@@ -1,10 +1,7 @@
 /* Reset */
 @import url('reset.css');
 
-/* Fonts */
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300);
+/* Icon Font */
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
 /* Base Elements */
