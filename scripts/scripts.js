@@ -1,5 +1,22 @@
 $(function() {
 
+	// Smooth Scrolling
+
+	$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+
 	// Animated title card for Recent Work gallery
 
 	function toggleFigcaptions() {
@@ -13,7 +30,7 @@ $(function() {
 
  	function footerCollapsed() {
     	if ($(".footer-section").css("float") == "none" ) return true;
-		else return false; 
+		else return false;
 	}
 
 	function openList() {
@@ -22,9 +39,9 @@ $(function() {
 	 		$(this).parent().siblings().children().filter('ul').hide();
 	 	}
 	}
- 	
-  	$('.footer-section-heading').on('click', openList);	
-  		
+
+  	$('.footer-section-heading').on('click', openList);
+
 	function showAllLists() {
 		if (!footerCollapsed()) {
 		 	$('.footer-section-list').show();
