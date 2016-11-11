@@ -29,8 +29,11 @@ $(function() {
 	// Collapsed "accordian" type menu for screens under 480px
 
  	function footerCollapsed() {
-    	if ($(".footer-section").css("float") == "none" ) return true;
-		else return false;
+    	if ($(".footer-section").css("float") == "none" ) {
+				return true;
+			}	else {
+				return false;
+			}
 	}
 
 	function openList() {
