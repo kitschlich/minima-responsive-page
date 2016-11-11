@@ -32,7 +32,7 @@ h2, h3, figcaption {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-h1 { 
+h1 {
 	font-size: 2rem;
 }
 
@@ -89,8 +89,6 @@ h3 {
 .mainNav li a {
 	padding-bottom: .1em;
 	border-bottom: 1px #fff solid;
-	-webkit-transition: border-color 0.2s linear;
-	-o-transition: border-color 0.2s linear;
 	transition: border-color 0.2s linear;
 }
 
@@ -114,7 +112,7 @@ h3 {
 	text-transform: none;
 	padding-top: 12%;
 	font-size: 3.5rem;
-	font-weight: lighter; 
+	font-weight: lighter;
 	margin-bottom: 1.5%;
 }
 
@@ -180,7 +178,7 @@ h3 {
 }
 
 .work {
-	max-width: 84%; 
+	max-width: 84%;
 }
 
 .work-img {
@@ -253,8 +251,6 @@ h3 {
 	line-height: 4.4rem;
 	font-size: 1.2rem;
 	border: 2px solid #4d4d4d;
-	-webkit-transition: all 0.2s linear;
-	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
 
@@ -325,8 +321,6 @@ h3 {
 	font-weight: bold;
 	padding: 1rem 5rem;
 	border-radius: 30px;
-	-webkit-transition: all 0.2s linear;
-	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
 
@@ -354,9 +348,9 @@ h3 {
 
 @media screen and (max-width: 960px) {
 	html {
-		font-size: 14px; 
+		font-size: 14px;
 	}
-	
+
 	.work {
 		max-width: 65%;
 	}
